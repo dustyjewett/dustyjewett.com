@@ -1,0 +1,186 @@
+body {
+	font-family: 'Molengo', sans-serif;
+	padding:10px;
+}
+.sectionTitleDiv{
+	float:left;
+	width:11em;
+}
+.sectionContent{
+	margin-left:11em;
+	margin-right:7em;
+}
+.sectionTags{
+	float:right;
+	width:7em;
+}
+.title{
+	color:#1D1951;
+	text-decoration:underline;
+}
+.org{
+	color:#560C1E;
+}
+
+.hresume
+{
+    width: 100%;
+}
+
+.hresume abbr
+{
+    border: none;
+}
+
+.hresume address
+{
+    font-style: normal;
+}
+
+.hresume hr
+{
+    display: block;
+	clear:both;
+	overflow:hidden;
+	visibility:hidden;
+}
+.contact{
+	text-align:center;
+}
+.hresume .contact .fn
+{
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+.hresume h2
+{
+    font-size: 12pt;
+    padding: 0 0 5px 0;
+	display:inline-block;
+	width:11em;
+    margin: 0;
+	font-weight:normal;
+	text-align:right;
+	color:#1C75BC;
+}
+
+
+.hresume .education, .hresume .accreditation
+{
+    margin: 10px 0 10px 20px;
+    padding: 1px;
+}
+
+.hresume .experience
+{
+    margin: 10px 0 30px 20px;
+    padding: 1px;
+}
+
+.hresume .summary, .hresume .tags
+{
+    margin: 10px 0 20px 20px;
+    padding: 1px;
+}
+
+.hresume .education .htitle, .hresume .experience .htitle
+{
+    float: left;
+}
+
+.hresume .htitle .include
+{
+    display: none;
+}
+
+.floatingExtraData
+{
+    float: right;
+    font-size: smaller;
+}
+
+.hresume .education .summary
+{
+    margin: 0;
+}
+
+.hresume .tags ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.hresume .tags ul li
+{
+    display: inline;
+}
+ul#navigation{
+	position:fixed;
+	margin:0px;
+	padding:0px;
+	top:0px;
+	left:0px;
+	list-style:none;
+	z-index:9999;
+	width:768px;
+}
+ul#navigation li{
+	width:128px;
+	display:inline;
+	float:left;
+}
+ul#navigation li a {
+    display: block;
+    float:left;
+    margin-top: -2px;
+    width: 128px;
+    height: 15px;
+    background-color:#E7F2F9;
+    background-repeat:no-repeat;
+    background-position:50% -10px;
+    border:1px solid #BDDCEF;
+    text-decoration:none;
+    text-align:center;
+    padding-top:118px;
+    -moz-border-radius:0px 0px 10px 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -khtml-border-bottom-right-radius: 10px;
+    -khtml-border-bottom-left-radius: 10px;
+}
+ul#navigation li a:hover{
+	background-color:#CAE3F2;
+}
+ul#navigation li a span{
+	letter-spacing:2px;
+	font-size:11px;
+	color#60ACD8;
+}
+ul#navigation .email a{
+	background-image:url(../images/mail_edit.png);
+}
+ul#navigation .pdf a{
+	background-image:url(../images/pdfIcon.jpg);
+}
+ul#navigation .blog a{
+	background-image:url(../images/note.png);
+}
+ul#navigation .portfolio a{
+	background-image:url(../images/applications.png);
+}
+ul#navigation .linkedin a{
+	background-image:url(../images/in.png);
+}
+ul#navigation .stackoverflow a{
+	background-image:url(../images/stackoverflow.png);
+}
+ul#navigation li a span.white{
+	color:#FFFFFF;
+	text-shadow: 0 1px 1px #000;
+
+}
+.hidden{
+	display:none;
+}

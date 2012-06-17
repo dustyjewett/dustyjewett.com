@@ -1,0 +1,95 @@
+* {
+  float: none;
+  color: #000;
+}
+.sectionTitleDiv{
+	float:none;
+	width:auto;
+}
+.sectionContent{
+	margin-left:1em;
+	margin-right:0px;
+}
+.sectionTags{
+	float:right;
+	width:auto;
+}
+.contact{
+text-align:left;
+}
+.hresume h2
+{
+text-align:left;
+}
+.floatingExtraData{
+float:none;
+margin-left:2em;
+}
+.hresume .education .htitle, .hresume .experience .htitle {
+float: none;
+}
+
+
+
+ul#navigation{
+	position:relative;
+	margin:0px;
+	padding:0px;
+	top:0px;
+	right:0px;
+	list-style:none;
+	z-index:0;
+	width:auto;
+float:right;
+}
+ul#navigation li{
+	width:auto;
+	display:block;
+	float:none;
+}
+ul#navigation li a {
+    display: block;
+    float:none;
+    margin-top:0px;
+    width:auto;
+    height:auto;
+    background:none;
+    border:none;
+    text-decoration:none;
+    text-align:right;
+    padding-top:0px;
+    -moz-border-radius:0px 0px 10px 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -khtml-border-bottom-right-radius: 10px;
+    -khtml-border-bottom-left-radius: 10px;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+ul#navigation li a:hover{
+	background:none;
+	margin:0;
+}
+ul#navigation li a span{
+	letter-spacing:auto;
+	font-size:11px;
+	color:#60ACD8;
+}
+ul#navigation .email a,
+ul#navigation .pdf a,
+ul#navigation .blog a,
+ul#navigation .portfolio a,
+ul#navigation .linkedin a,
+ul#navigation .stackoverflow a,
+ul#navigation li a span.white{
+	color:#60ACD8 ! important;
+	background:none;
+	text-shadow:none;
+}
+
+
+
+body { font-size: 80%; }

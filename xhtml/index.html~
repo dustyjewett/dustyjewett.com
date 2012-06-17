@@ -1,0 +1,230 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Dusty Jewett</title>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Molengo">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Josefin+Sans+Std+Light">
+</head>
+<script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAACK5xQiTUdob5x1pDZM24TBS3Q8_uS7i3dJJBq4mdzY-ZAo6rMxQlRIx2fb7STlgxAZR5XmvoZUaNsw"></script>
+<script>
+google.load("jquery", "1.4.2");
+google.load("jqueryui", "1.8.1");
+
+google.setOnLoadCallback(function(){
+	$(function() {
+	
+	 $('#navigation a').stop().animate({'marginTop':'-122px'},1000);
+	
+	 $('#navigation > li').hover(
+	  function () {
+	   $('a',$(this)).stop().animate({'marginTop':'-2px'},200);
+	  },
+	  function () {
+	   $('a',$(this)).stop().animate({'marginTop':'-122px'},200);
+	  }
+	 );
+	});
+});
+</script>
+<link rel="stylesheet" type="text/css" href="assets/css/resume.css" />
+<body>
+
+
+<ul id="navigation">
+	<li class="email"><a title="EMail" href="mailto:dusty.jewett+resume@gmail.com"><span>e-mail</span></a></li>
+    <li class="pdf"><a title="PDF" href="resume.pdf"><span class="white">pdf</span></a></li>
+    <li class="blog"><a title="Blog" href="http://hat6.com"><span>blog</span></a></li>
+    <li class="portfolio"><a title="Portfolio" href="/portfolio"><span>portfolio</span></a></li>
+    <li class="linkedin"><a title="LinkedIn" href="http://www.linkedin.com/in/dustyjewett"><span class="white">linkedin</span></a></li>
+    <li class="stackoverflow"><a title="Stack Overflow" href="http://careers.stackoverflow.com/dustyjewett"><span>stackoverflow</span></a></li>
+</ul>
+<div class="hresume">
+  <div class="contact vcard">
+    <div class="fn n" id="j"> <span class="given-name">Dusty</span> <span class="family-name">Jewett</span> </div>
+    <div class="adr"> <span class="street-address">2516 NE 92nd St</span> <br/>
+      <span class="locality">Seattle</span>, <span class="region">WA</span> <span class="postal-code">98115</span><span class="country-name">USA</span> </div>
+    <div> <span class="tel"><span class="value">425-749-4246</span> (<span class="type">cell</span>)</span> <br />
+      Email: <a class="email" href="mailto:dusty.jewett@gmail.com">dusty.jewett@gmail.com</a> </div>
+    <div class="hidden"> Web: <a class="url" href="http://dustyjewett.com">dustyjewett.com</a> <br/>
+      Blog: <a class="url" href="http://hat6.com">hat6.com</a><br />
+      Portfolio: <a class="url" href="http://dustyjewett.com/portfolio/">dustyjewett.com/portfolio</a><br />
+      <a class="url" href="http://www.linkedin.com/in/dustyjewett">LinkedIn Profile</a> </div>
+    <div style="clear: both;">&nbsp;</div>
+  </div>
+  <hr/>
+  <div id="section_fte">
+  	<div class="sectionTitleDiv">
+   		<h2 title="Professional Experience">experience</h2>
+    </div>
+    <div class="vcalendar sectionContent">
+      <div class="experience vevent vcard">
+        <div class="htitle"><!-- div float container -->
+          <object data="#j" class="include">
+          </object>
+          <span class="title">Sr. Software Engineer</span><br/>
+          <span class="org">Real Networks</span> </div>
+        <div class="floatingExtraData">
+        	<span class="date_duration"><abbr class="dtstart" title="2008-10-01">July 2010</abbr> - <abbr class="dtend">Present</abbr></span><br />
+            <span class="location">Seattle, WA</span>
+        </div>
+        <div style="clear: both">&nbsp;</div>
+        <div class="description">Developed Unifi's Flex Web Client, which won CNET's 'Best of CES' in 2011.</div>
+      </div>
+      <div class="experience vevent vcard">
+        <div class="htitle"><!-- div float container -->
+          <object data="#j" class="include">
+          </object>
+          <span class="title">Sr. Software Engineer / Team Lead</span><br/>
+          <span class="org">The Active Network</span> </div>
+        <div class="floatingExtraData">
+        	<span class="date_duration"><abbr class="dtstart" title="2008-10-01">October 2008</abbr> - <abbr class="dtend">June 2010</abbr></span><br />
+            <span class="location">Bothell, WA</span>
+        </div>
+        <div style="clear: both">&nbsp;</div>
+        <div class="description">Designed and developed an enterprise-wide framework
+          Led team that owns every component that touches any financial transaction throughout all new markets</div>
+      </div>
+      <div class="experience vevent vcard">
+        <div class="htitle"><!-- div float container -->
+          <object data="#j" class="include">
+          </object>
+          <span class="title">Sr. Multimedia Developer</span><br/>
+          <span class="org">Panasonic Avionics</span> </div>
+        <div class="floatingExtraData">
+       		<span class="date_duration"><abbr class="dtstart" title="2005-12-01">December 2005</abbr> - <abbr class="dtend" title="2008-10-01">October 2008</abbr></span><br />
+            <span class="location">Bothell, WA</span>
+        </div>
+        <div style="clear: both">&nbsp;</div>
+        <div class="description">Created applications and content templates that allowed our developers to maintain high quality and high efficiency.
+          Developed interactive diagrams and software simulators for web-based and classroom instruction. </div>
+      </div>
+    </div>
+  </div>
+  <hr/>
+  <div>
+  	<div class="sectionTitleDiv">
+    	<h2>contract</h2>
+    </div>
+    <div class="vcalendar sectionContent">
+      <div class="experience vevent vcard">
+        <div class="htitle"><!-- div float container -->
+          <object data="#j" class="include">
+          </object>
+          <span class="title">Flex Developer - Contract</span><br/>
+          <span class="org">Transact, Inc</span></div>
+        <div class="floatingExtraData">
+        	<span class="date_duration"><abbr class="dtstart" title="2007-10-01">March 2010</abbr> - <abbr class="dtend" title="2008-03-01">August 2010</abbr></span><br />
+            <span class="location">Shoreline, WA</span>
+        </div>
+        <div style="clear: both">&nbsp;</div>
+        <div class="description">Developed an Flex 4 application to collect and calculate performance indicators for school districts, providing them with the necessary data to increase efficiency.</div>
+      </div>
+      <div class="experience vevent vcard">
+        <div class="htitle"><!-- div float container -->
+          <object data="#j" class="include">
+          </object>
+          <span class="title">Flex Developer - Contract</span><br/>
+          <span class="org">Redclay / Gates Foundation</span></div>
+        <div class="floatingExtraData">
+        	<span class="date_duration"><abbr class="dtstart" title="2007-10-01">October 2007</abbr> - <abbr class="dtend" title="2008-03-01">March 2008</abbr></span><br />
+            <span class="location">Kirkland, WA</span>
+        </div>
+        <div style="clear: both">&nbsp;</div>
+        <div class="description">Worked on an application that allows teachers and school 
+          administrators to access and explore district-wide data.
+          Optimized visualizations to decrease memory usage by 25% and improve performance by up to 50%.</div>
+      </div>
+    </div>
+  </div>
+  <hr/>
+  <div id="section_education">
+  	<div class="sectionTitleDiv">
+    	<h2>education</h2>
+    </div>
+    <div class="vcalendar sectionContent">
+      <div class="education vevent vcard">
+        <div class="htitle"><!-- div float container --> 
+          <span class="summary"> BA Computer Science</span><br/>
+          <span class="org">University of South Dakota</span> </div>
+        <div class="floatingExtraData">        
+        	<span class="date_duration"><abbr class="dtstart" title="1999-08-01">August 1999</abbr> - <abbr class="dtend" title="2003-05-01">May 2003</abbr></span><br />
+            <span class="location">Vermillion, SD</span>        	
+        </div>
+        <div style="clear: both">&nbsp;</div>
+      </div>
+      <div class="education vevent vcard">
+        <div class="htitle"><!-- div float container --> 
+          <span class="summary"> MS Technology in Education and Training</span><br/>
+          <span class="org">University of South Dakota</span> </div>
+        <div class="floatingExtraData">        
+	        <span class="date_duration"><abbr class="dtstart" title="2003-08-01">August 2003</abbr> - <abbr class="dtend" title="2005-05-01">May 2005</abbr></span><br />
+            <span class="location">Vermillion, SD</span>        	
+        </div>
+        <div style="clear: both">&nbsp;</div>
+      </div>
+    </div>
+  </div>
+  <hr/>
+  <div id="section_tags">
+  	<div class="sectionTitleDiv">
+    	<h2>tags</h2>
+    </div>
+    <div class="sectionContent">
+      <div class="tags">
+        <ul>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/Actionscript">Actionscript</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/AS2">AS2</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/AS3">AS3</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/Adobe">Adobe</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/AIR">AIR</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/Android">Android</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/Ant">Ant</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/Apache">Apache</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/Cairngorm">Cairngorm</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/CSS">CSS</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/Dreamweaver">Dreamweaver</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/Eclipse">Eclipse</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/Flash">Flash</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/Flex">Flex</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/Flex%204">Flex 4</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/Firefox">Firefox</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/HTML">HTML</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/HTML%204">HTML 4</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/HTML%205">HTML 5</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/ILOG%20Elixir">ILOG Elixir</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/Internet%20Explorer">Internet Explorer</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/IoC">IoC</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/Java">Java</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/javascript">javascript</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/Mate">Mate</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/MySQL">MySQL</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/OOP">OOP</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/Opera">Opera</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/Papervision%203D">Papervision 3D</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/Perl">Perl</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/Photoshop">Photoshop</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/PHP">PHP</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/Plone">Plone</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/Putty">Putty</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/Python">Python</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/SCORM%201.2">SCORM 1.2</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/SCORM%202004">SCORM 2004</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/Subversion">Subversion</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/Swiz">Swiz</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/SVN">SVN</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/Tango%20Desktop">Tango Desktop</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/Trac">Trac</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/Ubuntu">Ubuntu</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/Wordpress">Wordpress</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/Windows">Windows</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/XHTML">XHTML</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/XML">XML</a></li>
+          <li><a class="skill" target="_blank" rel="tag" href="http://www.technorati.com/tag/Yahoo%20Flex%20API">Yahoo Flex API</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
