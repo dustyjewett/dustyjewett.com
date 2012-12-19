@@ -322,6 +322,7 @@ ul#navigation li a span.white{
 @media print {
   * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important;
   -ms-filter: none !important; } 
+  body { font:11px/1.231 sans-serif; *font-size:small; } 
   a, a:visited { color: #444 !important; text-decoration: underline; }
   a[href]:after { content: " (" attr(href) ")"; }
   /* abbr[title]:after { content: " (" attr(title) ")"; } */
@@ -384,6 +385,9 @@ text-transform:capitalize;
 .floatingExtraData{
 float:none;
 margin-left:2em;
+}
+.vevent {
+  page-break-inside: avoid;
 }
 .hresume .education .htitle, .hresume .experience .htitle {
 float: none;
